@@ -63,7 +63,7 @@
 #btn-started button:hover,
 #btn-sample-img button:hover,
 #btn-create-font button:hover {
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 #btn-create-font button {

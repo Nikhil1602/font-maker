@@ -25,7 +25,7 @@
   display: flex;
   margin: 19% auto;
   color: var(--default);
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 #preview img {
@@ -74,7 +74,7 @@
 #btn-two:hover,
 #btn-three:hover,
 #btn-download:hover {
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 #btn-retake {
@@ -102,7 +102,7 @@
 #croped-image hr:nth-child(2),
 #svg-preview hr:nth-child(2) {
   position: relative;
-  opacity: 50%;
+  opacity: 0.5;
   margin-top: -87px;
   /* margin-top: -72px; */
   border: 1.5px solid red;
@@ -112,7 +112,7 @@
 #croped-image hr:nth-child(3),
 #svg-preview hr:nth-child(3) {
   position: relative;
-  opacity: 50%;
+  opacity: 0.5;
   margin-top: 13px;
   border: 1.5px solid blue;
   background-color: blue;
@@ -121,7 +121,7 @@
 #croped-image hr:nth-child(4),
 #svg-preview hr:nth-child(4) {
   position: relative;
-  opacity: 50%;
+  opacity: 0.5;
   margin-top: 44px;
   border: 1.5px solid green;
   background-color: green;
@@ -241,7 +241,7 @@
   #btn-one:hover,
   #btn-two:hover,
   #btn-three:hover {
-    opacity: 100%;
+    opacity: 1;
   }
 
   #font-name-container {
