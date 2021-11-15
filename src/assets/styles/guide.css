@@ -1,0 +1,50 @@
+#guide-container {
+  margin: 22px;
+}
+
+#guide-container h3 {
+  text-transform: uppercase;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#guide-container p {
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+#guide-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#guide-image img {
+  border: 1px solid black;
+  margin: 10px;
+  height: 200px;
+  width: auto;
+}
+
+#guide-preview-div {
+  text-align: center;
+  margin: 20px;
+  margin-right: 50px;
+}
+
+#guide-result-div {
+  text-align: center;
+  margin: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 400px) {
+  #guide-image {
+    flex-direction: column;
+  }
+
+  #guide-preview-div {
+    margin-right: 20px;
+  }
+}

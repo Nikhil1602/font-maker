@@ -1,0 +1,34 @@
+:root {
+  --primary: #ffde38;
+  --secondary: #36276f;
+  --default: #aeaeae;
+}
+
+#background {
+  flex-grow: 1;
+  margin: auto 20px;
+}
+
+#bg-container {
+  height: 500px;
+}
+
+#content-container {
+  margin-top: 120px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+  #bg-container {
+    display: flow-root;
+  }
+
+  #content-container {
+    max-width: 100%;
+  }
+
+  #second-container {
+    display: inline;
+  }
+}

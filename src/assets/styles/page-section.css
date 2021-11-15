@@ -1,0 +1,232 @@
+:root {
+  --primary: #ffde38;
+  --secondary: #36276f;
+  --default: #aeaeae;
+}
+
+#background-img img {
+  width: 550px;
+  height: 450px;
+  margin: 60px;
+  padding: 10px;
+  color: var(--default);
+}
+
+#title h2 {
+  color: #000;
+  letter-spacing: 1px;
+  font-size: 35px;
+  margin-bottom: 50px;
+  text-align: right;
+}
+
+#tagline p {
+  color: var(--default);
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 23px;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+#vertical-line {
+  border-right: 4px solid var(--primary);
+  display: flex;
+  height: 100px;
+  width: 0px;
+  margin-left: 60px;
+}
+
+#btn-started,
+#btn-sample-img,
+#btn-create-font {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-started button,
+#btn-sample-img button,
+#btn-create-font button {
+  margin: 5px;
+  padding: 10px 30px;
+  width: 250px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+
+#btn-started button:hover,
+#btn-sample-img button:hover,
+#btn-create-font button:hover {
+  opacity: 50%;
+}
+
+#btn-create-font button {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1382px) {
+  #title h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1275px) {
+  #vertical-line {
+    height: 127px;
+  }
+}
+
+@media (max-width: 1205px) {
+  #tagline p {
+    font-size: 22px;
+  }
+
+  #vertical-line {
+    height: 120px;
+  }
+
+  #title h2 {
+    font-size: 28px;
+  }
+
+  #background-img img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1190px) {
+  #tagline p {
+    font-size: 16px;
+  }
+
+  #vertical-line {
+    height: 65px;
+  }
+
+  #title h2 {
+    font-size: 20px;
+  }
+
+  #background-img img {
+    width: 400px;
+    height: 400px;
+  }
+
+  #btn-started button,
+  #btn-sample-img button {
+    font-size: 12px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 936px) {
+  #vertical-line {
+    height: 85px;
+  }
+}
+
+@media (max-width: 900px) {
+  #background-img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  #background-img img {
+    width: 450px;
+    height: 400px;
+  }
+
+  #title,
+  #tagline {
+    max-width: 100%;
+  }
+
+  #title h2 {
+    font-size: 30px;
+  }
+
+  #tagline p {
+    font-size: 20px;
+  }
+
+  #title h2,
+  #tagline p {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #vertical-line {
+    display: none;
+  }
+
+  #btn-started button,
+  #btn-sample-img button {
+    font-size: 18px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  #background-img img {
+    width: 350px;
+    height: 300px;
+  }
+
+  #title h2 {
+    font-size: 20px;
+  }
+
+  #tagline p {
+    font-size: 15px;
+  }
+
+  #btn-started button,
+  #btn-sample-img button {
+    font-size: 12px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 330px) {
+  #background-img img {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 280px) {
+  #background-img img {
+    display: none;
+  }
+
+  #btn-started button,
+  #btn-sample-img button {
+    font-size: 10px;
+    width: 172px;
+  }
+}
+
+@media (max-width: 220px) {
+  #btn-started button,
+  #btn-sample-img button {
+    font-size: 8px;
+    width: 163px;
+  }
+
+  #btn-create-font button {
+    font-size: 12px;
+  }
+}
