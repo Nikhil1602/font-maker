@@ -91,7 +91,6 @@
   border: 1px solid black;
   margin: 10px auto;
   width: 100px;
-  /* width: 50px; */
   height: 100px;
 }
 
@@ -104,7 +103,6 @@
   position: relative;
   opacity: 0.5;
   margin-top: -87px;
-  /* margin-top: -72px; */
   border: 1.5px solid red;
   background-color: red;
 }
@@ -134,7 +132,6 @@
 
 #svg-preview #svg svg {
   width: 100px;
-  /* width: 50px; */
   height: 100px;
 }
 
@@ -226,7 +223,6 @@
   }
 
   #btn-next {
-    /* margin-top: 0px; */
     margin-top: -2px;
   }
 

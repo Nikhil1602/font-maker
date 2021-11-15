@@ -111,7 +111,7 @@ const traceCroppedImg = (thresholdValue, result, setVector) => {
 const display_image = (setShow, setDisabled, setOpacity) => {
   setShow(true);
   setDisabled(true);
-  setOpacity({ opacity: "50%" });
+  setOpacity({ opacity: 0.5 });
 };
 
 const display_svg_main = (vector, index) => {
@@ -127,7 +127,7 @@ const display_svg_main = (vector, index) => {
 
 const set_svg_operations = (setDisabled, setOpacity, setOpen, setShow) => {
   setDisabled(true);
-  setOpacity({ opacity: "50%" });
+  setOpacity({ opacity: 0.5 });
   setOpen(false);
   setShow(true);
 };

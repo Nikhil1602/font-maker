@@ -249,7 +249,7 @@ const ResultPreview = (props) => {
 const Controls = (props) => {
   const [vector, setVector] = useState(props.result);
   const [view, setView] = useState(true);
-  const [opacity, setOpacity] = useState({ opacity: "50%" });
+  const [opacity, setOpacity] = useState({ opacity: 0.5 });
 
   const set_svg = () => {
     getCroppedSvg(vector);
@@ -258,7 +258,7 @@ const Controls = (props) => {
   const set_preview = () => {
     traceCroppedImg(props.thresholdValue, props.result, setVector);
     setView(false);
-    setOpacity({ opacity: "100%" });
+    setOpacity({ opacity: 1 });
   };
 
   const set_img = () => {
@@ -340,7 +340,7 @@ const CropImageDialog = (props) => {
   const [disabled, setDisabled] = useState(true);
   const [image, setImage] = useState(null);
   const [crop, setCrop] = useState({ aspect: 1 });
-  const [opacity, setOpacity] = useState({ opacity: "50%" });
+  const [opacity, setOpacity] = useState({ opacity: 0.5 });
   const [show, setShow] = useState(true);
 
   const handleClose = () => {
@@ -352,7 +352,7 @@ const CropImageDialog = (props) => {
     getCroppedImg(image, crop, setResult);
     if (result != null) {
       setDisabled(false);
-      setOpacity({ opacity: "100%" });
+      setOpacity({ opacity: 1 });
     }
   };
 

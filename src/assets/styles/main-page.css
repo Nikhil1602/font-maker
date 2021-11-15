@@ -23,7 +23,7 @@
 
 .box hr,
 .box h1 {
-  opacity: 20%;
+  opacity: 0.2;
 }
 
 .box div:nth-child(1) p {
@@ -40,9 +40,6 @@
   font-weight: 300;
   margin-top: -81px;
   margin-bottom: -70px;
-  /* font-size: 70px; */
-  /* margin-top: -37px; */
-  /* margin-bottom: -77px; */
 }
 
 .box div:nth-child(1) hr:nth-child(1) {
@@ -50,7 +47,6 @@
 }
 
 .box div:nth-child(1) hr:nth-child(2) {
-  /* margin-top: 8px; */
   margin-top: 13px;
 }
 
@@ -59,16 +55,13 @@
 }
 
 .box:hover {
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 .svg-container {
-  /* position: relative; */
-  /* top: -20px; */
   display: flex;
   justify-content: center;
   margin-top: -70px;
-  /* margin-top: -72px; */
 }
 
 .svg-container svg {
