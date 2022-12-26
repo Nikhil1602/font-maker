@@ -2,7 +2,7 @@
 
 This website will convert your handwriting into the custom font file. The process is little-bit time consuming, but at the end you will get the [.ttf](https://en.wikipedia.org/wiki/TrueType) file, which you can use it in your document. To know the complete process, you can visit the Guide section.
 
-link - [https://font-makers.herokuapp.com/](https://font-makers.herokuapp.com/)
+link - [https://font-maker.netlify.app/](https://font-maker.netlify.app/)
 
 ### Tools and Technologies used:
 
@@ -15,7 +15,7 @@ link - [https://font-makers.herokuapp.com/](https://font-makers.herokuapp.com/)
 - [react-image-crop](https://github.com/DominicTobias/react-image-crop#readme) (tool to crop the image)
 - [svg2ttf](https://github.com/fontello/svg2ttf#readme) (tool to convert svg font to ttf)
 - [base-64](https://github.com/mathiasbynens/base64) (to encode/decode base64 string)
-- [heroku](https://www.heroku.com) (to host the website)
+- [netlify](https://www.netlify.com/) (to host the website)
 
 ## Installation
 
